@@ -35,22 +35,22 @@ variable "priv_name2" {
 #cidr_block variables for each subnet
 variable "pub_cidr_block_1" {
   description = "public_cidr_block_subnet_1"
-  default     = "10.0.1.0/26"
+  default     = "10.0.1.0/24"
 }
 
 variable "pub_cidr_block_2" {
   description = "public_cidr_block_subnet_2"
-  default     = "10.0.2.0/26"
+  default     = "10.0.2.0/24"
 }
 
 variable "priv_cidr_block_1" {
   description = "private_cidr_block_subnet_3"
-  default     = "10.0.3.0/26"
+  default     = "10.0.3.0/24"
 }
 
 variable "priv_cidr_block_2" {
   description = "private_cidr_block_subnet_4"
-  default     = "10.0.4.0/26"
+  default     = "10.0.4.0/24"
 }
 
 #subnets availability zones
