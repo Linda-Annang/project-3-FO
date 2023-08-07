@@ -30,9 +30,10 @@ Creating Internet gateway: (test-igw)
 
 #Creating Security groups with *port 80 and 22 opened for ingress.
 ( test-sec-group )
+
 #creating key pair and ec2 iam role
 
-#provisioning 3 EC2 server with Ubuntu Free Tier
+#provisioning 3 EC2 server with Ubuntu
 Putting 2 in public subnet and 1 in private subnet
 ( test-compute-1, test-compute-2, test-compute-3)
 
